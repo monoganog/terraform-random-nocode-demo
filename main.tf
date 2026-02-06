@@ -3,7 +3,7 @@ terraform {
 }
 
 module "random_name" {
-  source  = "app.terraform.io/<ben-monaghan-org/random-name/random"
+  source  = "app.terraform.io/ben-monaghan-org/random-name/random"
   version = ">= 1.0.0"
 
   words     = var.words
@@ -11,6 +11,6 @@ module "random_name" {
 }
 
 module "time_metadata" {
-  source  = "app.terraform.io/<ben-monaghan-org/time-metadata/time"
+  source  = "app.terraform.io/ben-monaghan-org/time-metadata/time"
   version = ">= 1.0.0"
 }
